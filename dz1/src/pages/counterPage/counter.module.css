@@ -1,0 +1,23 @@
+.number {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 6px 14px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(56, 56, 60);
+}
